@@ -1,11 +1,6 @@
-// Code your solution here
-// const drivers = ["A", "B", "C", "D"];
 const findMatching = (drivers, string) => {
    const filterArr = drivers.filter((filtered) => {
        return filtered.toUpperCase() === string.toUpperCase();
-       // return filtered.toUpperCase() === string.toUpperCase(); {
-       //     console.log('good');
-       // }
    });
    return filterArr;
 }
